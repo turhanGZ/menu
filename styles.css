@@ -1,0 +1,114 @@
+
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+li:before {
+    content: "• ";
+    color: #ff6600;
+}
+
+
+/* Existing CSS remains the same */
+
+.menu-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-column {
+    width: calc(50% - 10px); /* 50% width with a bit of space between columns */
+    margin-bottom: 20px;
+}
+
+.menu-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+.menu-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-column {
+    width: calc(50% - 20px); /* 50% width with a bit of space between columns */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu-column:hover {
+    transform: translateY(-5px);
+}
+
+.menu-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+p::before {
+    content: "💋 ";
+    color: #ff6666;
+    font-size: 20px;
+}
